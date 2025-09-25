@@ -1,0 +1,26 @@
+{
+  "name": "apapp",
+  "version": "1.0.0",
+  "description": "Basic peaque app",
+  "license": "MIT",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx peaque hmr",
+    "build": "tsc --noEmit && peaque build",
+    "start": "npx peaque start"
+  },
+  "dependencies": {
+    "@peaque/framework": "^2.1.7",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "react-refresh": "^0.17.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.38",
+    "@types/react-dom": "^19.0.11",
+    "tsx": "^4.7.0",
+    "typescript": "^5.9.2"
+  }
+}
