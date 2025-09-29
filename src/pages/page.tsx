@@ -5,7 +5,7 @@ export default function Page() {
   return (
     <div className='mx-auto w-xl'>
       <img src="/peaque.png" alt="Peaque Logo" className="w-32 h-32 mt-4" />
-      <div className="text-gray-300 text-xl">Page</div>
+      <div className="text-gray-300 text-xl">Page will update on push?!</div>
       {data && <div className="mt-4 text-green-400">Message from API: {data}</div>}
     </div>
   )
